@@ -1,17 +1,22 @@
-.content {
-    position: relative;
-    width: max-content;
-    margin: auto;
-    text-align: center;
+body{
+     background:url(fotos/tecnologiaFundo.jpg) ;
 }
-.content::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(0%, -50%);
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000;
-    background-image: url(https://unsplash.it/100/100);
+
+#letraVerde {
+color: rgb(107, 146, 17);
+}
+#letraBranca{
+    color: aliceblue;
+}
+#letraVermelha{
+    color: rgb(238, 9, 9);
+}
+#letraAzul{
+    color: rgb(11, 248, 43);
+   
+}
+a{
+color:rgb(15, 236, 100) ;
+border-bottom: 0cqw;
+background-color: black;
 }
